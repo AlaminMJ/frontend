@@ -1,0 +1,39 @@
+.dashboard .boxs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+.dashboard .boxs .box {
+  padding: 6px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-left: 3px solid #ec255a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard .boxs .box .icon {
+  font-size: 30px;
+  color: #ccc;
+}
+.dashboard .boxs .box:nth-child(2) {
+  border-color: royalblue;
+}
+.dashboard .boxs .box:nth-child(3) {
+  border-color: #146356;
+}
+.dashboard .boxs .box:nth-child(4) {
+  border-color: #6a097d;
+}
+.chart {
+  margin-top: 40px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.dashboard .table {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
